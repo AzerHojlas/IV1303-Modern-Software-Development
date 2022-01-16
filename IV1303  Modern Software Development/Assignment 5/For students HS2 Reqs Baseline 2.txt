@@ -1,0 +1,55 @@
+Solving Pain Points with Requirements Alpha
+
+
+Cecile Peraire
+Carnegie Mellon University Silicon Valley
+USA
+cecile.peraire@sv.cmu.edu
+
+Mira Kajko-Mattsson
+School of ICT
+KTH Royal Institute of Technology
+SWEDEN
+mekm2@kth.se
+
+Barry Myburgh
+Johannesburg Centre for Software Engineering
+Wits University, South Africa
+barrym@jcse.org.za Maria Augusta Vieira Nelson
+Department of Software Engineering and Information Systems
+Institute of Exact Sciences and Informatics
+Pontifical Catholic University of Minas Gerais (PUC Minas), Brazil
+mavnelson@gmail.com
+
+
+
+Paul E. McMahon
+PEM Systems
+USA
+pemcmahon@acm.org
+
+
+
+
+Purpose of the Handout
+By following this handout, you will be able to practice the usage of the Essence’s kernel on your own.  You will continue to help a team figure out where it is. 
+Pre-conditions
+To get the most out of this handout, you should have knowledge of the Essence Alphas, States, and Checklists and you should have read Scenario on Solving Pain Points.  
+When to apply 
+The handout describes events that occur the first release. 
+Essence Scope
+This handout focuses on leveraging the Alpha cards only. Other cards, like Activity Spaces and Competencies are not part of this scenario. 
+Reference Cards
+The Alpha cards used in this scenario are part of the SEMAT kernel. 
+
+
+Solving Pain Points with Requirements Alpha: Scenario 2
+  Cecile Peraire, Mira Kajko-Mattsson, Barry Myburgh, Maria Augusta Vieira Nelson, Paul E. McMahon
+
+A five-member team has been in charge of developing an online university course management system and has produced the first release. The team has just received the green light from university management to proceed with Release 2.
+The functionality in Release 2 would deal with the management of: (1) administrative information, (2) courses, and (3) student performance. It would strongly benefit administrators, faculty members and students, by facilitating their work and communication. It would also benefit university management by decreasing the overall administrative and managerial cost. The management is expecting to see the new system adopted by all at the end of the following academic year. 
+To further understand the university operation, the team members made inquiries about shortcomings of Release 1. They held frequent meetings with users to identify needs for Release 2, and also observed the usage of the new system. This gave them a good understanding of what worked well and what did not. Results of their efforts were analyzed and the improved usage scenarios were derived and documented at a fairly high level. The team’s repository was updated to reflect the changes. Users were kept in the loop to validate the scenarios and to identify their relative importance. UI mockups were then created and/or improved for the most important scenarios. It was agreed that details would still have to be elaborated just before implementation.
+In addition to the system users, the team also contacted other stakeholders to take their needs into account. For instance, given the university’s current growth projection, the team and university management agreed to assume that the system should accommodate up to 5.000 users. They also agreed that any decisions that had constrained the development of Release 1 would also apply to Release 2.
+Dealing with different stakeholder groups turned out to be challenging, as they often had different ideas on how things should be handled. For instance, the way the grades were communicated to the students caused disagreement. Faculty preferred the system to notify students about their grades by emails. Management, on the other hand, preferred the students to log in to access their grades. A short discussion helped solve the problem. Sending grades by emails was against the university’s policy and the management solution would have to be implemented.
+At some point during Release 2, one team member mentioned that a few faculty members were resisting the migration to the new system. They were still managing communication via emails and course assignments and grades via spreadsheets. They had no intention of migrating to the new system in the future. The team decided to interview a few of these faculty members to find out what the problem was. They also organized a short presentation of the functionality to be implemented in Release 2. The new functionality included (1) the management of student deliverables by the faculty members, (2) the ability to grade and provide feedback to the students, (3) the ability for students to view their grades in the system, and (4) the management of course materials by the faculty members. The goal was also to articulate the value of the new system over the value of the wiki-based solution. 
+Through the interviews and demonstration, the team realized that the missing features requested by the faculty members were related to the way the new solution computes grades and manages feedback on deliverables. The new system is more restrictive. It does not allow faculty members to associate grading components to each student deliverable and it only supports grades based on points, not on alphabetic symbols. 
